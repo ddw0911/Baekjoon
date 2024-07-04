@@ -18,6 +18,7 @@ public class Q1 {
                 num[i] = Integer.parseInt(st.nextToken());
         }
         int c = Integer.parseInt(br.readLine());
+
         int count = 0;
 
         for (int i = 0; i < num.length; i++) {

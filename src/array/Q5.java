@@ -22,13 +22,9 @@ public class Q5 {
             int k = Integer.parseInt(st1.nextToken());
 
             for (; i <= j; i++) {
-                if (basket[i-1] == 0) {
-                    basket[i-1] = k;
-                } else {
                     basket[i-1] = k;
                 }
             }
-        }
 
         for (int i = 0; i < basket.length; i++) {
             System.out.print(basket[i] + " ");

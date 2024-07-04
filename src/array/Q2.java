@@ -15,10 +15,10 @@ public class Q2 {
         int x = Integer.parseInt(st.nextToken());
 
         int[] num = new int[n];
-        StringTokenizer st1 = new StringTokenizer(br.readLine());
+        st = new StringTokenizer(br.readLine());
 
         for (int i = 0; i < num.length; i++) {
-                num[i] = Integer.parseInt(st1.nextToken());
+                num[i] = Integer.parseInt(st.nextToken());
         }
 
         int count = 0;
